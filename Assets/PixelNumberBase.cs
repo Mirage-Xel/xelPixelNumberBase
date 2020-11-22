@@ -136,6 +136,7 @@ public class PixelNumberBase : MonoBehaviour {
         {
             reset.AddInteractionPunch(.5f);
             inputText.text = "";
+            inputtedString = "";
             for (int i = 0; i < 16; i++)
             {
                 chosenBinaryIndicies[i] = rnd.Range(0, 16);
